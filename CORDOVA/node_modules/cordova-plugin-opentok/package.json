@@ -1,0 +1,104 @@
+{
+  "_args": [
+    [
+      "cordova-plugin-opentok@^3.2.4",
+      "/home/komar/CORDOVA"
+    ]
+  ],
+  "_from": "cordova-plugin-opentok@>=3.2.4 <4.0.0",
+  "_hasShrinkwrap": false,
+  "_id": "cordova-plugin-opentok@3.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/cordova-plugin-opentok",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-opentok_3.4.0_1536257859114_0.840113762808226"
+  },
+  "_npmUser": {
+    "email": "msach22@gmail.com",
+    "name": "msach22"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "cordova-plugin-opentok",
+    "raw": "cordova-plugin-opentok@^3.2.4",
+    "rawSpec": "^3.2.4",
+    "scope": null,
+    "spec": ">=3.2.4 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-opentok/-/cordova-plugin-opentok-3.4.0.tgz",
+  "_shasum": "08907cd5a8d66686a4da23e83c864b961307f816",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-opentok@^3.2.4",
+  "_where": "/home/komar/CORDOVA",
+  "author": {
+    "name": "Manik Sachdeva"
+  },
+  "bugs": {
+    "url": "https://github.com/opentok/cordova-plugin-opentok/issues"
+  },
+  "cordova": {
+    "id": "cordova-plugin-opentok",
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "@opentok/client": "2.14.2",
+    "exec": "^0.2.0",
+    "tar": "^2.0.0"
+  },
+  "description": "Add live video streaming to your Cordova Application",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.10.1",
+    "grunt-contrib-concat": "^0.4.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.3.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 53,
+    "integrity": "sha512-zRqK4ZLjyVPEW/M5qNqGWOxJdZ08IbKpHwP5r6OB7QEQYdu4JnfTrMlYS6Q+6qLBrhwxSPQR9SBQrg38H0xQQA==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbkW9DCRA9TVsSAnZWagAA728P/jo5lVdi2fqZrMVnm7jJ\nq8xJriISjpeGIkiFQ3NGwLGsIpfe/NUbCdbnx40xJ/ZScQsPlDFJgHapuEVc\nVTCsIwBS6KXFN0ie/02JXTK3GNG1173A7MA4efJxCFWZq3UYeWe747c+bSNW\n5QyblsIh4G5+uZoei3fmTJNHmQ38fXkSTpeIT7IakZBZz1U2iNIQtfBX5eN6\nEZikIIJDMmL6azos2O1PUrlizrf6Ix0o5yMpQq8fWEoycDz9nanAcJf7MXkP\nWxislHYiXUcGVnaqJmKdWcQusDY1DGCo2gHBb+2+Is1evsCyCFpJh5JMolQO\neLqHuHio6hNKy2BbhZLFEm7Cq2KNcIlg3T2JZ4RfGq2lSZYvYLSJGf1VvDZ0\n8xu1IeD/IybRIsHP7riEt7nzUzERbarW9qI0r4YOrobBmtjpwBvYoDPNSz0f\nvxDxETRQ7TXZPkHyVugqPgmUua32kkfVqogA/1fVDwSX73Ytf7SJkWyN6GfA\nm7TxEBZeGCLNkGPArHkf6ckseGalATLOQYyNKsAmEfNQDvJIxIAMr2a+OXX8\n+qT1iDnhKttL3Sk2+1bILhZ8Y5Z+p5I6WVCXW8SspeuMHQ9QMDXSK+6lxziq\nlRfvExpN63UdxlmV3IXOpbz1+fp7NAyRZTwOAjOS/hBybLgrRkKF1bund0J4\n4pqi\r\n=BfM9\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "08907cd5a8d66686a4da23e83c864b961307f816",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-opentok/-/cordova-plugin-opentok-3.4.0.tgz",
+    "unpackedSize": 380445
+  },
+  "gitHead": "b5dbd801fc84d78d4ccb0122a2fec45d41190bdd",
+  "homepage": "https://github.com/opentok/cordova-plugin-opentok#readme",
+  "keywords": [
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "ecosystem:cordova",
+    "opentok",
+    "tokbox"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "msach22",
+      "email": "msach22@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-opentok",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentok/cordova-plugin-opentok.git"
+  },
+  "version": "3.4.0"
+}

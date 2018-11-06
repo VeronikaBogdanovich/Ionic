@@ -1,0 +1,35 @@
+<ion-content padding class="main">
+  <div class="center">
+    <h1 style="padding-bottom: 15%">Найди себя:</h1>
+<div style="background-color: white">
+  <ion-list radio-group>
+    <ion-item style="color: #3f54ae">
+      <ion-label>Блогер: #транслируй</ion-label>
+      <ion-radio  value="blogger"></ion-radio>
+    </ion-item>
+    <ion-item style="color: #3f54ae">
+      <ion-label>Пользователь: #смотри</ion-label>
+      <ion-radio value="user"></ion-radio>
+    </ion-item>
+    <ion-item style="color: #3f54ae">
+      <ion-label>Специалист: #помогай</ion-label>
+      <ion-radio value="specialist"></ion-radio>
+    </ion-item>
+    <ion-item style="color: #3f54ae">
+      <ion-label>Турист: #узнавай</ion-label>
+      <ion-radio value="tourist"></ion-radio>
+    </ion-item>
+  </ion-list>
+</div>
+  </div>
+  <div class="text" style="padding-top: 2%">
+    <ion-row >
+      <ion-item col-6 class="main" no-lines>
+        <label (click)="showPrevious()" style="color: white; font-size: 19px">Назад</label>
+      </ion-item>
+      <ion-item col-6 class="main" no-lines >
+      <label (click)="showNext()" class="next">Далее</label>
+    </ion-item>
+    </ion-row>
+  </div>
+</ion-content>

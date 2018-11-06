@@ -1,0 +1,44 @@
+page-status-wait {
+    .main {
+      background-color: #3f54ae;
+    }
+    .data {
+      background-color: #3f54ae;
+
+    }
+    .avatarimg {
+      width: 100% !important;
+      height: 100% !important;
+    }
+    .text {
+      color: white;
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .description {
+      color: white;
+      font-size: 16px;
+    }
+    .center{
+      margin: auto;
+      width: 100%;
+      padding-top: 5%;
+    }
+    .thank{
+      color: #3f54ae;
+      text-align: center;
+    }
+  .circle{
+    width: 140px;
+    height: 140px;
+    background: orange;
+    -moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+    border-radius: 70px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    line-height: 140px;
+  }
+  }
+

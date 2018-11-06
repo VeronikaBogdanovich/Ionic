@@ -1,0 +1,51 @@
+page-show-user {
+  .main {
+    background-color: #3f54ae;
+  }
+  .data {
+    background-color: #3f54ae;
+
+  }
+  .avatarimg {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .text {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .button {
+    background-color: white;
+    color: #222222;
+    height: 2%;
+  }
+  .description {
+    color: white;
+    font-size: 16px;
+  }
+  .comment {
+    background-color: #3f54ae;
+    border-left: 1px solid black;
+  }
+  .star {
+    padding-top: 2px;
+    padding-right: 0px;
+  }
+  .calendars {
+    ion-label {
+      white-space: normal;
+    }
+
+    .item-ios, .item-md {
+      padding-left: 0;
+
+    }
+    .label-md, .label-ios {
+      margin: 13px 0 13px 0;
+    }
+    .item-ios.item-block .item-inner, .item-md.item-block .item-inner {
+      padding-right: 0px;
+    }
+  }
+}

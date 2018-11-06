@@ -1,0 +1,25 @@
+<ion-content class="main" padding>
+  <div class="confirmPage">
+    <h1>Введите пароль</h1>
+    <div class="main">
+      <ion-item>
+        <ion-label floating color="light">Новый пароль</ion-label>
+        <ion-input type="text" [(ngModel)]="password"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating color="light">Подтверждение пароля</ion-label>
+        <ion-input type="text" [(ngModel)]="confirmpassword"></ion-input>
+      </ion-item>
+    </div>
+    <div class="text">
+      <ion-row>
+        <ion-item col-6 class="main" no-lines>
+          <label (click)="goToPrevPage()" class="prev">Назад</label>
+        </ion-item>
+        <ion-item col-6 class="main" no-lines>
+          <label (click)="goToLoginPage()" class="next">Подтвердить</label>
+        </ion-item>
+      </ion-row>
+    </div>
+  </div>
+</ion-content>

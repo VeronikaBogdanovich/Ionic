@@ -1,0 +1,49 @@
+<ion-content padding class="main">
+  <div class="center">
+    <h1>Создайте учетную запись:</h1>
+    <ion-item class="main">
+      <ion-label floating color="light">Логин</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Email</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Пароль</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Повторите пароль</ion-label>
+      <ion-input type="password" [(ngModel)]="confirmpassword"></ion-input>
+    </ion-item>
+    <h4 style="color: white; text-align: center">или</h4>
+  </div>
+    <ion-item no-lines class="main" style="margin-left: 3%" >
+      <ion-avatar item-left>
+        <a href="https://vk.com/">  <img src="./assets/imgs/vk.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://twitter.com/?lang=ru"> <img src="./assets/imgs/tw.jpg" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.instagram.com/"> <img src="./assets/imgs/inst.jpg" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://telegram.org/"> <img src="./assets/imgs/teleg.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.youtube.com/"><img src="./assets/imgs/yt.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.facebook.com/"> <img src="./assets/imgs/fb.png" /></a>
+      </ion-avatar>
+    </ion-item>
+    <div class="text">
+    <label (click)="ShowNext()">Далее</label>
+    </div>
+
+  <div class="footer">
+    <h4 class="enter">Уже есть аккаунт?<a (click)="goToLoginPage()"> Войти</a></h4>
+  </div>
+</ion-content>

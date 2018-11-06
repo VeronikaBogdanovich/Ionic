@@ -1,0 +1,40 @@
+<ion-content class="main" padding>
+  <div class="loginPage">
+    <h1>Indocope</h1>
+    <ion-item class="main">
+      <ion-label floating color="light">Логин</ion-label>
+      <ion-input type="text" [(ngModel)]="login"></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Пароль</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+    <div  class="login">
+      <ion-label (click)="restPassword()">Забыли пароль?</ion-label>
+      <ion-label (click)="doLogin()">Войти</ion-label>
+    </div>
+    <ion-item no-lines class="main">
+      <ion-avatar item-left>
+        <a href="https://vk.com/">  <img src="./assets/imgs/vk.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://twitter.com/?lang=ru"> <img src="./assets/imgs/tw.jpg" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.instagram.com/"> <img src="./assets/imgs/inst.jpg" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://telegram.org/"> <img src="./assets/imgs/teleg.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.youtube.com/"><img src="./assets/imgs/yt.png" /></a>
+      </ion-avatar>
+      <ion-avatar item-left>
+        <a href="https://www.facebook.com/"> <img src="./assets/imgs/fb.png" /></a>
+      </ion-avatar>
+    </ion-item>
+    <div class="footer">
+      <h4 class="enter">Нет аккаунта? <a (click)="goToRegistrationPage()">Создать</a></h4>
+    </div>
+  </div>
+</ion-content>

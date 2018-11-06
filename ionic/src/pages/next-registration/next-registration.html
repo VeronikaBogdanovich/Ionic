@@ -1,0 +1,37 @@
+<ion-content padding class="main">
+  <div class="center">
+    <h1>Расскажите о себе побольше:</h1>
+    <ion-item class="main">
+      <ion-label floating color="light">Имя</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Фамилия</ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+    <ion-item class="main">
+      <ion-label floating color="light">Дата рождения</ion-label>
+      <ion-input type="email"></ion-input>
+    </ion-item>
+    <div class="rules">
+      <ion-item class="main" no-lines style="padding: 0%">
+        <ion-label style="color: white;padding: 0%">
+          <ion-row>Я согласен/согласна с
+          <a>правилами использования</a>
+          </ion-row>
+        </ion-label>
+        <ion-checkbox [(ngModel)]="rules" style="border-color: #3f54ae; padding: 0%"></ion-checkbox>
+      </ion-item>
+    </div>
+    <div class="text" style="padding-top: 2%">
+      <ion-row >
+        <ion-item col-6 class="main" no-lines>
+    <label (click)="showPrevious()" style="color: white; font-size: 19px">Назад</label>
+  </ion-item>
+    <ion-item col-6 class="main" no-lines >
+      <label (click)="showNext()" class="next">Далее</label>
+    </ion-item>
+    </ion-row>
+  </div>
+  </div>
+</ion-content>

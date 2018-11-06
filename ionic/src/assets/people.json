@@ -1,0 +1,67 @@
+{
+  "people": [
+    {
+      "id": 0,
+      "name": "Name1",
+      "surname":"Surname1",
+      "status": "md-person",
+      "img": "./assets/imgs/max.png",
+      "birthday": "17/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 1,
+      "name": "Name2",
+      "surname":"Surname2",
+      "status": "md-person",
+      "img": "./assets/imgs/max.png",
+      "birthday": "24/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 2,
+      "name": "Name3",
+      "surname":"Surname3",
+      "status": "",
+      "img": "./assets/imgs/max.png",
+      "birthday": "2/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 3,
+      "name": "Name4",
+      "surname":"Surname4",
+      "status": "md-person",
+      "img": "./assets/imgs/max.png",
+      "birthday": "10/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 4,
+      "name": "Name5",
+      "surname":"Surname5",
+      "status": "md-person",
+      "img": "./assets/imgs/max.png",
+      "birthday": "15/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 5,
+      "name": "Name6",
+      "surname":"Surname6",
+      "status": "",
+      "img": "./assets/imgs/max.png",
+      "birthday": "7/08/2000",
+      "about": "qwertyuiop qwwewr"
+    },
+    {
+      "id": 6,
+      "name": "Name7",
+      "surname":"Surname7",
+      "status": "md-person",
+      "img": "./assets/imgs/max.png",
+      "birthday": "11/08/2000",
+      "about": "qwertyuiop qwwewr"
+    }
+  ]
+}

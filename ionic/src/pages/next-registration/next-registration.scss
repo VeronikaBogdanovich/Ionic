@@ -1,0 +1,52 @@
+page-next-registration {
+  .main {
+    background-color: #3f54ae;
+  }
+  .center {
+    margin: auto;
+    width: 100%;
+    padding: 5%;
+    padding-top: 10%;
+  }
+  h1 {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 7%;
+  }
+  .text {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .next{
+    float: right;
+    color: white;
+    font-size: 19px;
+  }
+  .label-md {
+    margin: 13px 0 13px 0;
+  }
+  .item-md.item-block .item-inner {
+    padding-right: 0;
+  }
+  .rules {
+    color: white;
+    padding-top: 5%;
+  }
+  .enter {
+    font-size: 15px;
+  }
+  ion-item.main {
+    padding: 0;
+  }
+  .label-md {
+    margin: 13px 0 13px 0;
+  }
+  .item-md.item-block .item-inner, .item-ios.item-block .item-inner {
+    padding-right: 0px;
+  }
+  .label-ios {
+    margin: 11px 0px 11px 0;
+  }
+}

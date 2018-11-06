@@ -1,0 +1,24 @@
+<ion-content padding class="main">
+  <div class="center">
+    <h1 style="padding-bottom: 15%">Несколько слов о себе:</h1>
+<div style="background-color: white">
+  <ion-list radio-group>
+    <ion-item class="main">
+      <ion-label floating color="light">Например:#блогер</ion-label>
+      <ion-input [(ngModel)]="about"></ion-input>
+    </ion-item>
+
+  </ion-list>
+</div>
+  </div>
+  <div class="text" style="padding-top: 2%">
+    <ion-row >
+      <ion-item col-6 class="main" no-lines>
+        <label (click)="showPrevious()" style="color: white; font-size: 19px">Назад</label>
+      </ion-item>
+      <ion-item col-6 class="main" no-lines >
+      <label (click)="showNext()" class="next">Далее</label>
+    </ion-item>
+    </ion-row>
+  </div>
+</ion-content>

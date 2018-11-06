@@ -1,0 +1,106 @@
+<ion-content>
+  <div class="data">
+    <ion-row>
+      <ion-item col-4 class="main" no-lines>
+        <ion-avatar class="avatar">
+          <img src="./assets/imgs/max.png" class="avatarimg">
+        </ion-avatar>
+      </ion-item>
+      <ion-item col-8 class="main" no-lines>
+        <h2 class="text">{{user.name}} {{user.surname}}</h2>
+      </ion-item>
+    </ion-row>
+    <ion-row padding-left padding-right>
+      <div class="description">
+        {{user.about}}
+      </div>
+    </ion-row>
+    <div>
+      <ion-row style="padding-top: 3px;">
+        <button col-6 icon-only class="main" no-lines style="font-size: 11px">
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+        </button>
+        <button col-6 class="main" icon-only class="comment" no-lines (click)="ShowComments()">
+          <div text-center>
+            <ion-col style=" display: flex; align-items: center;  justify-content: center;">
+              <ion-icon name="ios-text-outline" style="padding: 1px"></ion-icon>
+              100
+            </ion-col>
+          </div>
+        </button>
+      </ion-row>
+    </div>
+  </div>
+  <div class="calendars">
+    <ion-list>
+      <ion-item style="display: flex;">
+        <ion-row style="align-items: center;  justify-content: center;">
+          <ion-col col-3>
+            <ion-avatar class="avatar">
+              <img src="./assets/imgs/max.png" class="avatarimg">
+            </ion-avatar>
+          </ion-col>
+          <ion-col col-6>
+            Ruesdfgrthfdsfegtrhrfewgtrhyby
+          </ion-col>
+          <ion-col col-3 text-center>
+            <p>22.07</p>
+            <p>18:00</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item style="display: flex;">
+        <ion-row style="align-items: center;  justify-content: center;">
+          <ion-col col-3>
+            <ion-avatar class="avatar">
+              <img src="./assets/imgs/max.png" class="avatarimg">
+            </ion-avatar>
+          </ion-col>
+          <ion-col col-6>
+            Ruesdfgrthfdsfegtrhrfewgtrhyby
+          </ion-col>
+          <ion-col col-3 text-center>
+            <p>22.07</p>
+            <p>18:00</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item style="display: flex;">
+        <ion-row style="align-items: center;  justify-content: center;">
+          <ion-col col-3>
+            <ion-avatar class="avatar">
+              <img src="./assets/imgs/max.png" class="avatarimg">
+            </ion-avatar>
+          </ion-col>
+          <ion-col col-6>
+            Ruesdfgrthfdsfegtrhrfewgtrhyby
+          </ion-col>
+          <ion-col col-3 text-center>
+            <p>22.07</p>
+            <p>18:00</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item style="display: flex;">
+        <ion-row style="align-items: center;  justify-content: center;">
+          <ion-col col-3>
+            <ion-avatar class="avatar">
+              <img src="./assets/imgs/max.png" class="avatarimg">
+            </ion-avatar>
+          </ion-col>
+          <ion-col col-6>
+            Ruesdfgrthfdsfegtrhrfewgtrhyby
+          </ion-col>
+          <ion-col col-3 text-center>
+            <p>22.07</p>
+            <p>18:00</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

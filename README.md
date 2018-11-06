@@ -1,0 +1,2 @@
+ An application for communicating with new people, including with popular bloggers and professionals in their field. On Indocope, you are sure to find someone interesting for yourself, learn new places and get the necessary advice. On the street, in a cafe or at home - find and communicate with anyone. Indocope allows you to broadcast and talk about the surrounding world on the air.
+Participate in auctions or buy a broadcast at a fixed price to communicate on the Internet with an interesting person for you.

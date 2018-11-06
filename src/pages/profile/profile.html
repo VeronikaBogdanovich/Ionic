@@ -1,0 +1,92 @@
+<ion-content>
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content>
+
+    </ion-refresher-content>
+  </ion-refresher>
+  <div class="data" *ngIf="user">
+    <ion-row>
+      <ion-item col-4 class="main" no-lines>
+        <ion-avatar class="avatar">
+          <img src="./assets/imgs/max.png" class="avatarimg">
+        </ion-avatar>
+      </ion-item>
+      <ion-item col-8 class="main" no-lines>
+        <h2 class="text">{{user.username}}</h2>
+        <ion-row>
+          <button ion-button col-9 class="button" (click)="doEdit()">Редактировать</button>
+          <button ion-button icon-only col-2 class="button" (click)="ShowSettings()">
+            <ion-icon name="settings" style="padding: 3.5px"></ion-icon>
+          </button>
+        </ion-row>
+      </ion-item>
+    </ion-row>
+    <ion-row padding-left padding-right>
+      <div class="description">
+        {{user.role}}
+      </div>
+    </ion-row>
+    <div>
+      <ion-row style="padding-top: 3px;">
+        <button col-6 icon-only class="main" no-lines style="font-size: 11px">
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+        </button>
+        <button col-6 color="white" class="main" icon-only class="comment" no-lines (click)="ShowComments()">
+          <div text-center>
+            <ion-col style=" display: flex; align-items: center;  justify-content: center;">
+              <ion-icon name="ios-text-outline" style="padding: 1px"></ion-icon>
+              100
+            </ion-col>
+          </div>
+        </button>
+      </ion-row>
+    </div>
+  </div>
+
+
+  <div class="calendars" padding>
+    <ion-segment [(ngModel)]="segments" color="main">
+      <ion-segment-button value="registered">
+        Транслирую
+      </ion-segment-button>
+      <ion-segment-button value="purchased">
+        Участвую
+      </ion-segment-button>
+    </ion-segment>
+    <div [ngSwitch]="segments">
+
+
+      <ion-list *ngSwitchCase="'registered'">
+        <ion-item style="display: flex;" *ngFor="let i of postsList">
+          <ion-row style="align-items: center;  justify-content: center;">
+            <ion-col col-6>
+              <div col-9 (click)="presentPopover($event, i)">
+                {{i.description}}
+              </div>
+            </ion-col>
+            <ion-col col-3 text-center>
+              <p>Дата:{{i.date}}</p>
+              <p>Время:{{i.time}}</p>
+            </ion-col>
+            <button class="auctButt" col-3 text-center>
+              <p>{{i.price}}</p>
+              <p>{{i.priceRun}}</p>
+            </button>
+          </ion-row>
+        </ion-item>
+      </ion-list>
+
+
+      <ion-list *ngSwitchCase="'purchased'">
+      </ion-list>
+
+
+    </div>
+  </div>
+
+
+</ion-content>

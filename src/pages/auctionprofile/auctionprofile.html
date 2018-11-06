@@ -1,0 +1,84 @@
+<ion-content>
+  <div class="data">
+    <ion-row>
+      <ion-item col-4 class="main" no-lines>
+        <ion-avatar class="avatar">
+          <img src="./assets/imgs/max.png" class="avatarimg">
+        </ion-avatar>
+      </ion-item>
+      <ion-item col-8 class="main" no-lines>
+        <h2 class="text">Name Surname</h2>
+        <ion-row>
+          <button ion-button col-9 class="button" (click)="doEdit()">Редактировать</button>
+          <button ion-button icon-only col-2 class="button" (click)="ShowSettings()">
+            <ion-icon name="settings" style="padding: 3.5px"></ion-icon>
+          </button>
+        </ion-row>
+      </ion-item>
+    </ion-row>
+    <ion-row padding-left padding-right>
+      <div class="description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        <h4 style=" font-size: 15px; font-weight: normal;">#tag1#tag2#tag3</h4>
+      </div>
+    </ion-row>
+    <div>
+      <ion-row style="padding-top: 3px;">
+        <button col-6 icon-only class="main" no-lines style="font-size: 11px">
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+          <ion-icon name="ios-star-outline" class="star"></ion-icon>
+        </button>
+        <button col-6 color="white" class="main" icon-only class="comment" no-lines (click)="ShowComments()" >
+          <div text-center>
+            <ion-col style=" display: flex; align-items: center;  justify-content: center;">
+              <ion-icon name="ios-text-outline" style="padding: 1px"></ion-icon>
+              100
+            </ion-col>
+          </div>
+        </button>
+      </ion-row>
+    </div>
+  </div>
+  <div>
+    <ion-list>
+      <ion-item style="display: flex;">
+        <ion-row >
+          <ion-item col-9 no-lines>
+            <h2 style="color: #3f54ae; font-weight: bold">Стрим1</h2>
+            <h4 style="color: black">
+              Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed</h4>
+              <h4 style=" font-size: 15px; font-weight: normal;color: black; ">#tag1#tag2#tag3</h4>
+
+          </ion-item>
+          <ion-col col-3 text-center>
+            <p style="color: dimgray"><ion-icon name="ios-alarm-outline"></ion-icon>10:45</p>
+            <p style="color: dimgray"><ion-icon name="ios-timer-outline"></ion-icon>10min</p>
+            <p style="color: dimgray; padding-top: 5px">45p <button (click)="showAlert()" style="background-color: #3f54ae; color: white;border-radius: 10px; height: 20px; width: 40px">Buy</button></p>
+            <p style="color: #3f54ae" (click)="showauction()">Аукцион</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+      <ion-item style="display: flex;">
+        <ion-row>
+          <ion-item col-9 no-lines>
+            <h2 style="color: #3f54ae; font-weight: bold">Стрим2</h2>
+            <h4 style="color: black">
+              Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed</h4>
+            <h4 style=" font-size: 15px; font-weight: normal;color: black; ">#tag1#tag2#tag3</h4>
+
+          </ion-item>
+          <ion-col col-3 text-center>
+            <p style="color: dimgray"><ion-icon name="ios-alarm-outline"></ion-icon>12:30</p>
+            <p style="color: dimgray"><ion-icon name="ios-timer-outline"></ion-icon>10min</p>
+            <p style="color: dimgray; padding-top: 5px">45p <button (click)="showAlert()" style="background-color: #3f54ae; color: white;border-radius: 10px; height: 20px; width: 40px">Buy</button></p>
+            <p style="color: #3f54ae" (click)="showauction()">Аукцион</p>
+          </ion-col>
+        </ion-row>
+      </ion-item>
+    </ion-list>
+  </div>
+
+</ion-content>

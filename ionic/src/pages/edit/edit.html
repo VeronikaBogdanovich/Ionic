@@ -1,0 +1,46 @@
+<ion-content>
+  <ion-row class="main">
+    <ion-col col-2 style="float: left">
+      <button color="white" ion-button clear icon-only (click)="close()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-col>
+    <ion-title class="title">Редактирование</ion-title>
+    <ion-col col-2 style="float: right">
+      <button color="white" ion-button clear icon-only (click)="save()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-col>
+  </ion-row>
+  <div>
+    <ion-item no-lines>
+      <ion-avatar class="avatar">
+        <img src="./assets/imgs/max.png" class="avatarimg">
+      </ion-avatar>
+    </ion-item>
+    <div class="center" padding-left padding-right>
+      <ion-item no-lines>
+        <ion-label floating color="light">Name</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item no-lines>
+        <ion-label floating color="light">Surname</ion-label>
+        <ion-input type="text"></ion-input>
+      </ion-item>
+      <ion-item no-lines>
+        <ion-label floating color="light">Дата рождения</ion-label>
+        <ion-datetime type="text" [(ngModel)]="date" displayFormat="MMMM/DD/YYYY"></ion-datetime>
+      </ion-item>
+      <ion-item no-lines>
+        <ion-label fixed color="light">Пол</ion-label>
+        <ion-select [(ngModel)]="gender">
+          <ion-option value="f">Мужской</ion-option>
+          <ion-option value="m">Женский</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item no-lines style="padding-top: 5%; height: 15%; border: 1px solid gainsboro; border-radius: 20px">
+        <ion-textarea placeholder="О себе"></ion-textarea>
+      </ion-item>
+    </div>
+  </div>
+</ion-content>

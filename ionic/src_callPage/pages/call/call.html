@@ -1,0 +1,21 @@
+
+<ion-content>
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color:lightgreen;">
+            <ion-input #emojidummy android:inputType="textMultiLine|textShortMessage" placeholder="Text Input"></ion-input>
+
+    </div>
+    <div style="position: absolute; bottom: 0; left: 0; width: 100%;">
+        <button  ion-button round icon-only (click)="show_map()" style="left: 7.5%; width: 20%; height:15%; position: relative; padding:8%">
+            <ion-icon name="ios-car"></ion-icon>
+        </button>
+        <button ion-button round icon-only (click)="show_emoji_panel()" style="margin-left: 7.5%; width: 20%; height:15%; position: relative; padding:8%">
+            <ion-icon name="star"></ion-icon>
+        </button>
+        <button ion-button round icon-only (click)="mute_call()" style="margin-right: 2.5%; width: 20%; height:15%; position: relative; padding:8%">
+            <ion-icon name="ios-mic-off"></ion-icon>
+        </button>
+        <button ion-button round icon-only (click)="end_call()" style="right: 2.5%; width: 20%; height:15%; position: relative; padding:8%" ion-button color="danger">
+            <ion-icon name="ios-call"></ion-icon>
+        </button>
+    </div>
+</ion-content>

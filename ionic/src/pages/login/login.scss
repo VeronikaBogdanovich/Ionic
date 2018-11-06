@@ -1,0 +1,38 @@
+page-login {
+  @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+  .main {
+    background: #3f54ae;
+  }
+  .loginPage {
+    padding-top: 40%;
+  }
+  h1 {
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 53px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 1%;
+  }
+  .login {
+    color: #f4f4f4;
+    text-align: center;
+  }
+  ion-item.main {
+    padding: 0 5%;
+  }
+  .login ion-label:nth-child(1) {
+    color: #b1b1b1;
+  }
+  .login ion-label:nth-child(2) {
+    font-size: 25px;
+  }
+  .footer {
+    color: white;
+    padding-top: 35%;
+    padding-left: 5%;
+  }
+  .enter {
+    font-size: 15px;
+  }
+
+}

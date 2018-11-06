@@ -1,0 +1,46 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button style="float: right; color: #f4f4f4" clear (click)="addEvents()">Добавить</button>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-item>
+  <ion-label floating color="light">Имя</ion-label>
+  <ion-input type="text" [(ngModel)]="name" ></ion-input>
+  </ion-item>
+  <ion-item>
+  <ion-label floating color="light">Описание</ion-label>
+  <ion-input type="text" [(ngModel)]="description" ></ion-input>
+  </ion-item>
+    <ion-item>
+      <ion-label floating color="light">Дата</ion-label>
+      <ion-datetime type="text" [(ngModel)]="date" displayFormat="MMMM/DD/YYYY" ></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="light">Время</ion-label>
+      <ion-datetime type="text" [(ngModel)]="time" displayFormat="H/m" ></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="light">Продолжительность</ion-label>
+      <ion-input type="text" [(ngModel)]="duration"></ion-input>
+    </ion-item>
+  <ion-item>
+    <ion-label floating color="light">Вид</ion-label>
+    <ion-select [(ngModel)]="type">
+      <ion-option value="f">Аукцион</ion-option>
+      <ion-option value="m">Фиксированная цена</ion-option>
+    </ion-select>
+  </ion-item>
+    <ion-item>
+      <ion-label floating color="light">Цена</ion-label>
+      <ion-input type="text" [(ngModel)]="price"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating color="light">Шаг цены</ion-label>
+      <ion-input type="text" [(ngModel)]="tick"></ion-input>
+    </ion-item>
+</ion-content>
